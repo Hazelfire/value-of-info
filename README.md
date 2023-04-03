@@ -3,7 +3,7 @@
 Here's some resources on [value of information](https://en.wikipedia.org/wiki/Value_of_information).
 Including utilities to calculate it and a card game made out of it.
 
-## Rules
+## Contents
 There are several pdfs in this repo for set cards, but if you want to make your own, you can use generate_value.py
 
 `cards_nine_per_page.pdf` is a new version of the game ready for printing. If you've played the game with me before this is the one you can use. I would recommend printing them all on 300gsm paper single sided, then cutting them out with a stanley knife, and gluing them back to back to make thick cards.

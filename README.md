@@ -29,13 +29,17 @@ Extra notes for the curious that ask questions:
  - Why lognormal? We use lognormal distributions a lot at [QURI](https://quantifieduncertainty.org/). We like them because there interventions are calculated by the product of a lot of positive random variables, that by an extention of the [central limit theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), comes out to be lognormal.
  
 ## Discussion:
-I usually first ask "What make you decide what you wanted to do?", and then go into one of four discussion topics based on what they say. I generally find that people have good intuitions when they come to calculating the value of information, and hearing what they say and how  
+I usually first ask "What make you decide what you wanted to do?", and then go into one of three discussion topics based on what they say. I generally find that people have good intuitions when they come to calculating the value of information, and hearing what they say and how  
 
 ### Expected value
-The first thing to realise about the game is how to calculate expected value (EV). Although this is not exact, a good approximation is simple the average of the high and the low number to get the EV. One question to ask to talk about this would be "If you didn't have the evaluator card, what would you do?". Often, people will say they would just put all their money on the one with the highest EV.
+The first thing to realise about the game is how to calculate expected value (EV). Although this is not exact, a good approximation is simple the average of the high and the low number to get the EV. One question to ask to talk about this would be "If you didn't have the evaluator card, what would you do?". Often, people will say they would just put all their money on the one with the highest EV. I often also notice people will only evaluate charities with a high EV, and I encourage that and say that that's because it's likely to change your mind.
 
 ### Hedging
 Hedging is when one choses to put tokens into multple places. If one wants to go for the highest EV, you shouldn't hedge and you should simply put all your money into the card with the highest EV. You may want to hedge if:
  - You have [loss aversion](https://en.wikipedia.org/wiki/Loss_aversion)
  - You have diminishing marginal returns (aka, "If I gave 10 Billion dollars to AMF, they wouldn't be able to use it all effectively because they wouldn't know what to do with it")
  - Your goal is to beat another player/score over getting the highest EV.
+
+### Extra Resources
+I usually then prompt people with "What would you do if you had 100 tokens rather than 10". People will usually correctly answer that they would evaluate a lot more. I then support that to say that that's exactly the case, that VOI is (linearly) proportional to the amount of resources you have.
+
